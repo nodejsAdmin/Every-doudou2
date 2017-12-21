@@ -1,0 +1,51 @@
+1、字符串转换
+var num= 19; // 19
+var myStr = String(num); // "19"
+
+
+2、字符串分割
+var myStr = "I,Love,You,Do,you,love,me";
+var substrArray = myStr .split(","); // ["I", "Love", "You", "Do", "you", "love", "me"];
+var arrayLimited = myStr .split(",", 3); // ["I", "Love", "You"];
+
+
+
+3、获取字符串长度
+
+var myStr = "I,Love,You,Do,you,love,me";
+var myStrLength = myStr.length; //25
+
+
+查询子字符串
+
+var myStr = "I,Love,you,Do,you,love,me";
+var index = myStr.lastIndexOf("you"); // 14
+
+
+字符串替换
+
+ar myStr = "I,love,you,Do,you,love,me";
+var replacedStr = myStr.replace("love","hate");//"I,hate,you,Do,you,love,me"
+
+查找给定位置的字符
+var myStr = "I,love,you,Do,you,love,me";
+var theChar = myStr.charAt(8);// "o",同样从0开始
+
+7、字符串连接
+
+var str1 = "I,love,you!";
+var str2 = "Do,you,love,me?";
+var str = str1 + str2 + "Yes!";//"I,love,you!Do,you,love,me?Yes!"
+
+8、字符串切割和提取
+
+var myStr = "I,love,you,Do,you,love,me";
+var subStr = myStr.slice(1,5);//",lov"
+
+9、字符串大小写转换
+
+var myStr = "I,love,you,Do,you,love,me";
+var lowCaseStr = myStr.toLowerCase();//"i,love,you,do,you,love,me";
+var upCaseStr = myStr.toUpperCase();//"I,LOVE,YOU,DO,YOU,LOVE,ME"
+
+
